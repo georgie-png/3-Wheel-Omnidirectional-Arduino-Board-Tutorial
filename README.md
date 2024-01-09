@@ -5,24 +5,20 @@ In this tutorial we will be working together with the omnidirectional wheels on 
 ---
 ## So What Are We Doing?
 
-In the slides that go with this we have seen the logics and movements of the setup.
+In the [slides](3%20Wheel%20Omnidirectional%20Ardunio%20Board.pdf) that go with this we have seen the logics and movements of the setup.
 
 Now its time to put our knowledges into practice!
 
 ---
-
-
 ## Firstly let's Cable up a servo motor!
 
-![Wiring-the-360-degree-servo-motor-with-Arduino-Uno-1024x496](Wiring-the-360-degree-servo-motor-with-Arduino-Uno-1024x496.jpg)
-
+![](imgs/Wiring-the-360-degree-servo-motor-with-Arduino-Uno-1024x496.jpg)
 The servo needs to be connected up to the:
 - [ ] power
 - [ ] ground
 - [ ] data pin (2)
 
 ---
-
 ## Next To Code It.
 
 - [ ] Create a new project called `Omni-dance`
@@ -121,7 +117,8 @@ But attaching to pins:
 - [ ] servo2 = pin 4
 - [ ] servo3 = pin 6
 
-![wiring 3 servos](wiring%203%20servos.png)
+
+![](imgs/wiring%203%20servos.png)
 
 ---
 ## Now in the code we need to:
@@ -163,7 +160,7 @@ void setup() {
 
 These will be the functions to replicate the movements in this diagram.
 
-![5 omni wheel movements](5%20omni%20wheel%20movements.png)
+![](imgs/5%20omni%20wheel%20movements.png)
 
 ---
 ## Working out the movement functions.
@@ -172,7 +169,7 @@ So this is a bit where you have to work out the movement functions and turn the 
 
 I will give an example of the movement 1.
 
-![movement1](movement1.png)
+![](imgs/movement1.png)
 
 As you see in the diagram it needs:
 - [ ] servo1 turning counter-clockwise
@@ -237,7 +234,7 @@ void setup() {
 ---
 ## Now time for you to work out the rest!
 
-![5 omni wheel movements](5%20omni%20wheel%20movements.png)
+![](imgs/5%20omni%20wheel%20movements.png)
 
 Use the diagram to work out the other 4 movements shown!
 
@@ -472,7 +469,7 @@ Modulo, or `%` (percentage sign) in code, gives us the remainder after division.
 **Example:** **14** mod **12** equals **2** (`14%12=2`)
 Because $14/12=1$, **Leaving** a remainder of **2**.
 
-![modulus](modulus.svg)
+![](imgs/modulus.svg)
 
 So **14** o'clock becomes **2** o'clock.
 
@@ -483,7 +480,7 @@ So **14** o'clock becomes **2** o'clock.
 Modulo then makes it super easy to translate an index (potentially infinite) to a position in a finite array, all we need to do is `index%arrayLength`.
 
 Here is a gif of modulo in action in js, see how index never goes over the array Length (10):
-![D23XMdf-2519117421](D23XMdf-2519117421.gif)
+![](imgs/D23XMdf-2519117421.gif)
 
 For us in Arduino code this looks like:
 ```c++
