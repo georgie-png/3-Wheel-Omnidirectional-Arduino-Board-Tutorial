@@ -120,7 +120,7 @@ But attaching to pins:
 - [ ] servo2 = pin 4
 - [ ] servo3 = pin 6
 
-![[Pasted image 20240108205940.png]]
+![[wiring 3 servos.png]]
 
 ---
 ## Now in the code we need to:
@@ -162,7 +162,7 @@ void setup() {
 
 These will be the functions to replicate the movements in this diagram.
 
-![[Pasted image 20240108210559.png]]
+![[5 omni wheel movements.png]]
 
 ---
 ## Working out the movement functions.
@@ -171,7 +171,7 @@ So this is a bit where you have to work out the movement functions and turn the 
 
 I will give an example of the movement 1.
 
-![[Pasted image 20240108211704.png]]
+![[movement1.png]]
 
 As you see in the diagram it needs:
 - [ ] servo1 turning counter-clockwise
@@ -236,7 +236,7 @@ void setup() {
 ---
 ## Now time for you to work out the rest!
 
-![[Pasted image 20240108210559.png]]
+![[5 omni wheel movements.png]]
 
 Use the diagram to work out the other 4 movements shown!
 
