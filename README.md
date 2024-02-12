@@ -56,9 +56,9 @@ void setup() {
 A continuous servo like we have here is controlled with a setting of 0 -180. 
 
 With it representing a gradient of rotation from:
-- 0 = counter-clockwise 
+- 0 = clockwise 
 - 90 = stopped
-- 180 = clockwise
+- 180 = Anti-clockwise
 
 ---
 ### So to test this we can:
